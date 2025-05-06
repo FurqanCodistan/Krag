@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+# Added environment variable file
+.env
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# FAISS database (can be regenerated)
+faiss_db/*
+!faiss_db/.gitkeep
+
+# Large data files (optional, uncomment if you don't want to track these)
+# data/*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints

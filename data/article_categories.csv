@@ -1,0 +1,12 @@
+article_id,category_id,primary_category,confidence_score
+0,3,True,0.95
+1,4,True,0.92
+2,9,True,0.89
+3,2,True,0.88
+4,5,True,0.87
+5,9,True,0.86
+6,1,True,0.85
+7,1,True,0.84
+8,2,True,0.83
+9,2,True,0.82
+10,5,True,0.81

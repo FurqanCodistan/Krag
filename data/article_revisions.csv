@@ -1,0 +1,12 @@
+article_id,revision_id,author_id,revision_date,change_type,change_description,version
+0,0_0,30,2025-01-01,Major,Initial draft.,1.0
+1,1_0,30,2025-01-02,Major,Initial draft.,1.0
+2,2_0,28,2025-01-03,Major,Initial draft.,1.0
+3,3_0,33,2025-01-04,Major,Initial draft.,1.0
+4,4_0,38,2025-01-05,Major,Initial draft.,1.0
+5,5_0,11,2025-01-06,Major,Initial draft.,1.0
+6,6_0,37,2025-01-07,Major,Initial draft.,1.0
+7,7_0,37,2025-01-08,Major,Initial draft.,1.0
+8,8_0,18,2025-01-09,Major,Initial draft.,1.0
+9,9_0,42,2025-01-10,Major,Initial draft.,1.0
+10,10_0,22,2025-01-11,Major,Initial draft.,1.0

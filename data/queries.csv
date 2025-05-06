@@ -1,0 +1,10 @@
+query_text,query_type,ground_truth
+What is image forgery?,direct,Image Forgery
+What is Image Cloning?,related,Cloning
+How RESAMPLING works?,exploratory,RESAMPLING
+What is SPLICING,direct,SPLICING
+What is quantization in JPEG,exploratory,JPEG QUANTIZATION
+What is DOUBLE JPEG,direct,DOUBLE JPEG
+How BLOCKING of JPEG works,related,JPEG BLOCKING
+What are CAMERA based results,exploratory,CAMERA BASED 
+What are Color filter?,related,Color Filter 

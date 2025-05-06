@@ -1,0 +1,666 @@
+2it [03:19, 99.81s/it]
+Query: How RESAMPLING works?
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an image. For example, when creating a composite of two people, one person may have to be resized to match the 
+relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score : 0.5029904842376709
+Latency : 0.00018143653869628906
+Precision : 1.0
+Recall : 0.007142857142857143
+Fmeasure : 0.014184397163120567
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an image. For example, when creating a composite of two people, one person may have to be resized to match the 
+relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score : 0.7567563652992249
+Latency : 0.8142352104187012
+Precision : 1.0
+Recall : 0.007142857142857143
+Fmeasure : 0.014184397163120567
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: RESAMPLING
+Content:To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an 
+image. For example, when creating a composite of two people, one person may have to be resized to match the relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur 
+naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, 
+c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score:0.5437157154083252
+Precision:1.0
+Recall:1.0
+Fmeasure:1.0
+Latency:3.7854504585266113
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: RESAMPLING
+Content:To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an 
+image. For example, when creating a composite of two people, one person may have to be resized to match the relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur 
+naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, 
+c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score:0.5059454441070557
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an image. For example, when creating a composite of two people, one person may have to be resized to match the relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score : 0.5029904842376709
+Latency : 0.040036678314208984
+Precision : 1.0
+Recall : 0.007142857142857143
+Fmeasure : 0.014184397163120567
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : To create a convincing composite, it is often necessary to resize, rotate, or stretch portions of an image. For example, when creating a composite of two people, one person may have to be resized to match the relative heights. This process requires resampling the original image onto a new sampling lattice, introducing specific periodic correlations between neighboring pixels. Because these correlations are unlikely to occur naturally, their presence can be used to detect this specific manipulation ([36] ; related approaches are described in [43],[22], [31], and [38] ).f length m by a factor of two using linear interpolation to yield y1t2. The odd samples of the resampled signal take on the values of the original signal: y12i 2 12 5 x1i2, i 5 1, c, m, while the even samples are the average of adjacent neighbors of the original signal
+Score : 0.5029904842376709
+Latency : 0.040036678314208984
+Precision : 1.0
+Recall : 0.007142857142857143
+Fmeasure : 0.014184397163120567
+====================================================================================================
+3it [04:40, 91.12s/it]
+Query: What is SPLICING
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score : 0.5187869071960449
+Latency : 8.440017700195312e-05
+Precision : 1.0
+Recall : 0.00684931506849315
+Fmeasure : 0.013605442176870748
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score : 0.6874106526374817
+Latency : 1.526134729385376
+Precision : 1.0
+Recall : 0.00684931506849315
+Fmeasure : 0.013605442176870748
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: SPLICING
+Content:A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. 
+In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can 
+subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between 
+triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score:0.5076505541801453
+Precision:1.0
+Recall:1.0
+Fmeasure:1.0
+Latency:5.158166408538818
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: SPLICING
+Content:A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. 
+In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can 
+subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between 
+triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score:0.5362131595611572
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score : 0.5187869071960449
+Latency : 0.08003807067871094
+Precision : 1.0
+Recall : 0.00684931506849315
+Fmeasure : 0.013605442176870748
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : A common form of photographic manipulation is the digital splicing of two or more images into a single composite. When performed carefully, the border between the spliced regions can be visually imperceptible. In [7] and [32] , however, the authors show that splicing disrupts higher-order Fourier statistics,which can subsequently be used to detect splicing. Consider a 1-D signal x1t2 and its Fourier transform X1v2. The power spectrum P1v2 5 X1v2X* 1v2 is routinely used to analyze the frequency composition of a signal (* denotes complex conjugate). Moving beyond the power spectrum, the bispectrum measures higher-order correlations between triples of frequencies v1, v2, and v1 1 v2. Subtle discontinuities that result from splicing manifest themselves with an increase in the magnitude of the bispectrum and in a bias in the bispectrum phase, which are used to detect splicing in audio [7] and in images [32] .
+Score : 0.5187869071960449
+Latency : 0.08003807067871094
+Precision : 1.0
+Recall : 0.00684931506849315
+Fmeasure : 0.013605442176870748
+====================================================================================================
+4it [06:15, 92.46s/it]
+Query: What is quantization in JPEG
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two 
+relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score : 0.5433250665664673
+Latency : 9.083747863769531e-05
+Precision : 1.0
+Recall : 0.011299435028248588
+Fmeasure : 0.0223463687150838
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two 
+relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score : 0.7644777297973633
+Latency : 1.178657054901123
+Precision : 1.0
+Recall : 0.011299435028248588
+Fmeasure : 0.0223463687150838
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: JPEG QUANTIZATION
+Content:Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values 
+areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted 
+to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score:0.537300705909729
+Precision:1.0
+Recall:1.0
+Fmeasure:1.0
+Latency:3.5141191482543945
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: JPEG QUANTIZATION
+Content:Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values 
+areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted 
+to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score:0.5797406435012817
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.5433250665664673
+Latency : 0.03541922569274902
+Precision : 1.0
+Recall : 0.011299435028248588
+Fmeasure : 0.0223463687150838
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.5433250665664673
+Latency : 0.03541922569274902
+Precision : 1.0
+Recall : 0.011299435028248588
+Fmeasure : 0.0223463687150838
+====================================================================================================
+5it [07:44, 91.33s/it]
+Query: What is DOUBLE JPEG
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts 
+not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score : 0.5643582344055176
+Latency : 0.00013446807861328125
+Precision : 1.0
+Recall : 0.017391304347826087
+Fmeasure : 0.03418803418803419
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts 
+not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score : 0.7249835729598999
+Latency : 1.2254602909088135
+Precision : 1.0
+Recall : 0.017391304347826087
+Fmeasure : 0.03418803418803419
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: DOUBLE JPEG
+Content:At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. 
+Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score:0.5776809453964233
+Precision:1.0
+Recall:1.0
+Fmeasure:1.0
+Latency:4.821686029434204
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: DOUBLE JPEG
+Content:At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. 
+Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score:0.6140379309654236
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original 
+and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score : 0.46404221653938293
+Latency : 0.04451727867126465
+Precision : 0.5
+Recall : 0.004524886877828055
+Fmeasure : 0.008968609865470854
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : At a minimum, any digital manipulation requires that an image be loaded into a photo-editing software program and resaved. Since most images are stored in the JPEG format, it is likely that both the original 
+and manipulated images are stored in this format. In this scenario, the manipulated image is compressed twice. Because of the lossy nature of the JPEG image format, this double compression introduces specific artifacts not present in singly compressed images (assuming that the image was not also cropped prior to the second compression). The presence of these artifacts can, therefore, be used as evidence of some manipulation [25], [35] . Note that double JPEG compression does not necessarily prove malicious tampering.
+Score : 0.46404221653938293
+Latency : 0.04451727867126465
+Precision : 0.5
+Recall : 0.004524886877828055
+Fmeasure : 0.008968609865470854
+====================================================================================================
+6it [09:05, 87.95s/it]
+Query: How BLOCKING of JPEG works
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :As described in the previous sections, the basis for JPEG compression is the block DCT transform. Because each 8 3 8 pixel image block is individually transformed and quantized, artifacts appear at the border 
+of neighboring blocks in the form of horizontal and vertical edges. When an image is manipulated, these blocking artifacts may be disturbed. In [28] , the authors characterize the blocking artifactsusing pixel value differences within and across block boundaries. These differences tend to be smaller within blocks than across 
+blocks. When an image is cropped and recompressed, a new set of blocking artifacts may be introduced that do 
+not necessarily align with the original boundaries. Within- and across-block pixel value differences are computed from 4-pixel neighborhoods that are spatially offset from each other by a fixed amount, where one neighborhood lies entirely within a JPEG block and the other borders or overlaps a JPEG block. Ahistogram of these 
+differences is computed from all 8 3 8 nonoverlapping image blocks. A 8 3 8 “blocking artifact” matrix (BAM) 
+is computed as the average difference between these histograms. For uncompressed images, this matrix is random,while for a compressed image, this matrix has a specific pattern. When an image is cropped and recompressed, this patternis disrupted. Supervised pattern classification is employed to discriminate between authentic and inauthentic BAMs.
+Score : 0.5868530869483948
+Latency : 9.655952453613281e-05
+Precision : 1.0
+Recall : 0.00904977375565611
+Fmeasure : 0.017937219730941707
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :As described in the previous sections, the basis for JPEG compression is the block DCT transform. Because each 8 3 8 pixel image block is individually transformed and quantized, artifacts appear at the border 
+of neighboring blocks in the form of horizontal and vertical edges. When an image is manipulated, these blocking artifacts may be disturbed. In [28] , the authors characterize the blocking artifactsusing pixel value differences within and across block boundaries. These differences tend to be smaller within blocks than across 
+blocks. When an image is cropped and recompressed, a new set of blocking artifacts may be introduced that do 
+not necessarily align with the original boundaries. Within- and across-block pixel value differences are computed from 4-pixel neighborhoods that are spatially offset from each other by a fixed amount, where one neighborhood lies entirely within a JPEG block and the other borders or overlaps a JPEG block. Ahistogram of these 
+differences is computed from all 8 3 8 nonoverlapping image blocks. A 8 3 8 “blocking artifact” matrix (BAM) 
+is computed as the average difference between these histograms. For uncompressed images, this matrix is random,while for a compressed image, this matrix has a specific pattern. When an image is cropped and recompressed, this patternis disrupted. Supervised pattern classification is employed to discriminate between authentic and inauthentic BAMs.
+Score : 0.7545145750045776
+Latency : 1.0873653888702393
+Precision : 1.0
+Recall : 0.00904977375565611
+Fmeasure : 0.017937219730941707
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: JPEG BLOCKING
+Content:As described in the previous sections, the basis for JPEG compression is the block DCT transform. Because each 8 3 8 pixel image block is individually transformed and quantized, artifacts appear at the border of neighboring blocks in the form of horizontal and vertical edges. When an image is manipulated, these blocking artifacts may be disturbed. In [28] , the authors characterize the blocking artifactsusing pixel value differences within and across block boundaries. These differences tend to be smaller within blocks than across blocks. When an image is cropped and recompressed, a new set of blocking artifacts may be introduced that do not necessarily align with the original boundaries. Within- and across-block pixel value differences are computed from 4-pixel neighborhoods that are spatially offset from each other by a fixed amount, where one neighborhood lies entirely within a JPEG block and the other borders or overlaps a JPEG block. Ahistogram of these differences is computed from all 8 3 8 nonoverlapping image blocks. A 8 3 8 “blocking artifact” matrix (BAM) is computed as the average difference between these histograms. For uncompressed images, this matrix is random,while for a compressed image, this matrix has a specific pattern. When an image is cropped and recompressed, this patternis disrupted. Supervised pattern classification is employed to discriminate between authentic and inauthentic BAMs.
+Score:0.5298992991447449
+Precision:1.0
+Recall:1.0
+Fmeasure:1.0
+Latency:4.2586829662323
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: JPEG BLOCKING
+Content:As described in the previous sections, the basis for JPEG compression is the block DCT transform. Because each 8 3 8 pixel image block is individually transformed and quantized, artifacts appear at the border of neighboring blocks in the form of horizontal and vertical edges. When an image is manipulated, these blocking artifacts may be disturbed. In [28] , the authors characterize the blocking artifactsusing pixel value differences within and across block boundaries. These differences tend to be smaller within blocks than across blocks. When an image is cropped and recompressed, a new set of blocking artifacts may be introduced that do not necessarily align with the original boundaries. Within- and across-block pixel value differences are computed from 4-pixel neighborhoods that are spatially offset from each other by a fixed amount, where one neighborhood lies entirely within a JPEG block and the other borders or overlaps a JPEG block. Ahistogram of these differences is computed from all 8 3 8 nonoverlapping image blocks. A 8 3 8 “blocking artifact” matrix (BAM) is computed as the average difference between these histograms. For uncompressed images, this matrix is random,while for a compressed image, this matrix has a specific pattern. When an image is cropped and recompressed, this patternis disrupted. Supervised pattern classification is employed to discriminate between authentic and inauthentic BAMs.
+Score:0.6479979753494263
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.48927465081214905
+Latency : 0.07790803909301758
+Precision : 0.5
+Recall : 0.008695652173913044
+Fmeasure : 0.017094017094017096
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.48927465081214905
+Latency : 0.07790803909301758
+Precision : 0.5
+Recall : 0.008695652173913044
+Fmeasure : 0.017094017094017096
+====================================================================================================
+7it [10:33, 87.85s/it]
+Query: What are CAMERA based results
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two 
+relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score : 0.47703588008880615
+Latency : 0.0001659393310546875
+Precision : 0.5
+Recall : 0.005649717514124294
+Fmeasure : 0.0111731843575419
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :A digital color image consists of three channels containing samples from different bands of the color spectrum, e.g., red, green, and blue. Most digital cameras, however, are equipped with a single CCD or CMOS sensor and capture color images using a color filter array (CFA). Most CFAs employ three color filters (red, green, and blue) placed atop each sensor element. Since only a single color sample is recorded at each pixel location, the other two color samples must be estimated from the neighboring samples in order to obtain a three-channel color image. The estimation of the missing color samples is referred to as CFA interpolation or demosaicking. The simplest demosaicking methods are kernel-based ones that act on each channel independently (e.g., bilinear or bicubic interpolation). Moresophisticated algorithms interpolate edges differently from uniform areas to avoid blurring salient image features. Regardless of the specific implementation, CFA interpolation introduces specific statistical correlations between a subset of pixels ineach color channel. Since the 
+color filters in a CFA are typically arranged in a periodic pattern, these correlations are periodic.        
+Score : 0.6960206627845764
+Latency : 1.3700597286224365
+Precision : 1.0
+Recall : 0.011111111111111112
+Fmeasure : 0.02197802197802198
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: Image Forgery
+Content:Today manipulation of digital images has become easy due to powerful computers, advanced photo-editing software packages and high resolution capturing devices. Verifying the integrity of images and detecting traces of tampering without requiring extra prior knowledge of the image content or any embedded watermarks is 
+an important research field. An attempt is made to survey the recent developments in the field of digital image forgery detection and complete bibliography is presented on blind methods for forgery detection. Blind or 
+passive methods do not need any explicit priori information about the image. First, various image forgery detection techniques are classified and then its generalized structure is developed. An overview of passive image authentication is presented and the existing blind forgery detection techniques are reviewed. The present status of image forgery detection technique is discussed along with a recommendation for future research.The rapid growth of image processing softwares and the advancement in digital cameras has given rise to large amounts of doctored images with no obvious traces, generating a great demand for automatic forgery detection algorithms in order to determine the trustworthiness of a candidate image. A forgery detection algorithm should be passive, requiring no prior information about the image content or any protecting methods like watermarks.According to the Wall Street Journal, 10% of all color photographs published in United States were actually digitally altered and retouched (Amsberry, 1989). The scientific community has also been subject to forgeries (Farid,2006a; Pearson, 2005). The authenticity of photographs has an essential role as these photos are popularly used as supporting evidences and historical records in growing number and wide range of applications from forensicinvestigation, journalistic photography, criminal investigation, law enforcement, insurance claims and medical imaging. Image forgery has a long history (Rocha et al., 2011). As shown in Fig. 1, in todays digital world it is possible to create, alter and modify the information represented by an image very easily     
+Score:0.7239964008331299
+Precision:0.0
+Recall:0.0
+Fmeasure:0.0
+Latency:4.923174858093262
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: JPEG QUANTIZATION
+Content:Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values 
+areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted 
+to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of compression.
+Score:0.45186087489128113
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.47703588008880615
+Latency : 0.06268930435180664
+Precision : 0.5
+Recall : 0.005649717514124294
+Fmeasure : 0.0111731843575419
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : Most cameras encode images in the JPEG format. This lossy compression scheme allows for some flexibility in how much compression is achieved. Manufacturers typically configure their devices differently in order to balance compression and quality to their own needs and tastes. As described in [8] and[44] , this difference can be used to identify the source (camera make/model) of an image. Given a three-channel color image (RGB), the standard JPEG compression scheme proceeds as follows: The RGB image is first converted into luminance/chrominance space (YCbCr). The two chrominance channels (CbCr) are typically subsampled by a factor of two relative to the luminance channel (Y). Each channel is then partitioned into 8 3 8 pixel blocks. These values areconverted from unsigned to signed integers (e.g., from 30, 2554 to 32128, 1274 ). Each block is converted to frequency space using a 2-D discrete cosine transform (DCT). Depending on the specific frequency and channel, each DCT coefficient, c, is then quantized by an amount q : :c/q;. This stage is the primary source of 
+compression.
+Score : 0.47703588008880615
+Latency : 0.06268930435180664
+Precision : 0.5
+Recall : 0.005649717514124294
+Fmeasure : 0.0111731843575419
+====================================================================================================
+8it [12:12, 91.27s/it]
+Query: What are Color filter?
+Naive RAG results:
+
+JSON Conversion Successful
+
+
+Naive RAG results (SentenceTransformer):
+Response:
+Content :A digital color image consists of three channels containing samples from different bands of the color spectrum, e.g., red, green, and blue. Most digital cameras, however, are equipped with a single CCD or CMOS sensor and capture color images using a color filter array (CFA). Most CFAs employ three color filters (red, green, and blue) placed atop each sensor element. Since only a single color sample is recorded at each pixel location, the other two color samples must be estimated from the neighboring samples in order to obtain a three-channel color image. The estimation of the missing color samples is referred to as CFA interpolation or demosaicking. The simplest demosaicking methods are kernel-based ones that act on each channel independently (e.g., bilinear or bicubic interpolation). Moresophisticated algorithms interpolate edges differently from uniform areas to avoid blurring salient image features. Regardless of the specific implementation, CFA interpolation introduces specific statistical correlations between a subset of pixels ineach color channel. Since the 
+color filters in a CFA are typically arranged in a periodic pattern, these correlations are periodic.        
+Score : 0.5256488919258118
+Latency : 9.298324584960938e-05
+Precision : 1.0
+Recall : 0.011111111111111112
+Fmeasure : 0.02197802197802198
+
+JSON Conversion Successful
+
+
+Naive RAG results (LangChain):
+Response:
+Content :A digital color image consists of three channels containing samples from different bands of the color spectrum, e.g., red, green, and blue. Most digital cameras, however, are equipped with a single CCD or CMOS sensor and capture color images using a color filter array (CFA). Most CFAs employ three color filters (red, green, and blue) placed atop each sensor element. Since only a single color sample is recorded at each pixel location, the other two color samples must be estimated from the neighboring samples in order to obtain a three-channel color image. The estimation of the missing color samples is referred to as CFA interpolation or demosaicking. The simplest demosaicking methods are kernel-based ones that act on each channel independently (e.g., bilinear or bicubic interpolation). Moresophisticated algorithms interpolate edges differently from uniform areas to avoid blurring salient image features. Regardless of the specific implementation, CFA interpolation introduces specific statistical correlations between a subset of pixels ineach color channel. Since the 
+color filters in a CFA are typically arranged in a periodic pattern, these correlations are periodic.        
+Score : 0.7479780316352844
+Latency : 0.9280171394348145
+Precision : 1.0
+Recall : 0.011111111111111112
+Fmeasure : 0.02197802197802198
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: COLOR FILTER ARRAY
+Content:A digital color image consists of three channels containing samples from different bands of the color spectrum, e.g., red, green, and blue. Most digital cameras, however, are equipped with a single CCD or CMOS 
+sensor and capture color images using a color filter array (CFA). Most CFAs employ three color filters (red, 
+green, and blue) placed atop each sensor element. Since only a single color sample is recorded at each pixel 
+location, the other two color samples must be estimated from the neighboring samples in order to obtain a three-channel color image. The estimation of the missing color samples is referred to as CFA interpolation or demosaicking. The simplest demosaicking methods are kernel-based ones that act on each channel independently (e.g., bilinear or bicubic interpolation). Moresophisticated algorithms interpolate edges differently from uniform areas to avoid blurring salient image features. Regardless of the specific implementation, CFA interpolation introduces specific statistical correlations between a subset of pixels ineach color channel. Since the color filters in a CFA are typically arranged in a periodic pattern, these correlations are periodic.
+Score:0.4839971661567688
+Precision:1.0
+Recall:0.6666666666666666
+Fmeasure:0.8
+Latency:3.596846103668213
+
+----------------------------------------------------------------------------------------------------
+
+JSON Conversion Successful
+
+
+Graph RAG results:
+Response:
+Title: COLOR FILTER ARRAY
+Content:A digital color image consists of three channels containing samples from different bands of the color spectrum, e.g., red, green, and blue. Most digital cameras, however, are equipped with a single CCD or CMOS 
+sensor and capture color images using a color filter array (CFA). Most CFAs employ three color filters (red, 
+green, and blue) placed atop each sensor element. Since only a single color sample is recorded at each pixel 
+location, the other two color samples must be estimated from the neighboring samples in order to obtain a three-channel color image. The estimation of the missing color samples is referred to as CFA interpolation or demosaicking. The simplest demosaicking methods are kernel-based ones that act on each channel independently (e.g., bilinear or bicubic interpolation). Moresophisticated algorithms interpolate edges differently from uniform areas to avoid blurring salient image features. Regardless of the specific implementation, CFA interpolation introduces specific statistical correlations between a subset of pixels ineach color channel. Since the color filters in a CFA are typically arranged in a periodic pattern, these correlations are periodic.
+Score:0.5487948060035706
+Precision:N/A
+Recall:N/A
+Fmeasure:N/A
+Latency:N/A
+
+
+Knowledge RAG results (SentenceTransformer): : 2 results
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results:
+Response:
+
+Content : In an ideal imaging system, light passes through the lens and is focused to a single point on the sensor. Optical systems,however, deviate from such ideal models in that they fail to perfectly focus light of 
+all wavelengths. Specifically, lateral chromatic aberration manifests itself as a spatial shift in thelocations where light of different wavelengths reaches the sensor. In [16] , the authors show that this lateral aberration can be approximated as an expansion or contraction of the color channels with respect to one another. 
+Shown in Figure 2(a) ,for example, is an image overlayed with a vector field that represents the misalignment of the red channel relative to the green channel. Shown in Figure 2(b) is this same image when the fish was 
+added to the image. Note that in this case, the local lateral aberration in this tampered region is inconsistent with the global aberration. The authors of [16] describe how to estimate lateral chromatic aberration in 
+order to detect this type of manipulation.
+Score : 0.5256488919258118
+Latency : 0.03405570983886719
+Precision : 1.0
+Recall : 0.011111111111111112
+Fmeasure : 0.02197802197802198
+
+JSON Conversion Successful
+
+
+Knowledge Graph RAG results (LangChain - LangGraph):
+Response:
+
+Content : In an ideal imaging system, light passes through the lens and is focused to a single point on the sensor. Optical systems,however, deviate from such ideal models in that they fail to perfectly focus light of 
+all wavelengths. Specifically, lateral chromatic aberration manifests itself as a spatial shift in thelocations where light of different wavelengths reaches the sensor. In [16] , the authors show that this lateral aberration can be approximated as an expansion or contraction of the color channels with respect to one another. 
+Shown in Figure 2(a) ,for example, is an image overlayed with a vector field that represents the misalignment of the red channel relative to the green channel. Shown in Figure 2(b) is this same image when the fish was 
+added to the image. Note that in this case, the local lateral aberration in this tampered region is inconsistent with the global aberration. The authors of [16] describe how to estimate lateral chromatic aberration in 
+order to detect this type of manipulation.
+Score : 0.5256488919258118
+Latency : 0.03405570983886719
+Precision : 1.0
+Recall : 0.011111111111111112
+Fmeasure : 0.02197802197802198
+====================================================================================================

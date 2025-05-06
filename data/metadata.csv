@@ -1,0 +1,12 @@
+article_id,readability_score,complexity_level,citation_count,reference_count,keywords,summary_length,reading_time_minutes,has_code_snippets,has_images
+0,0.89,Intermediate,2,26,"create, example, action, particularly, either, evening",463,7,True,False
+1,0.73,Advanced,53,9,"measure, push, worker, property, over, management, religious",376,12,False,True
+2,0.86,Advanced,35,24,"mission, listen, official, effort",268,5,False,True
+3,0.36,Basic,34,3,"may, manage, model, attack, couple",339,7,True,True
+4,0.97,Advanced,48,7,"memory, able, open, idea, meet",174,12,False,True
+5,0.58,Basic,63,5,"share, career, meet, sell, week, fill",214,7,False,True
+6,0.47,Intermediate,68,17,"inside, performance, way",410,4,False,True
+7,0.37,Advanced,97,6,"call, exist, senior, performance",281,10,True,True
+8,0.58,Advanced,27,12,"ok, section, sometimes, owner, food, account, computer",228,15,False,True
+9,0.9,Intermediate,44,9,"yard, none, drive, man, new, ago, more",482,16,True,True
+10,0.51,Advanced,63,9,"social, player, father",311,4,True,True
